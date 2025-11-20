@@ -15,10 +15,13 @@ function App() {
         <div className=" overflow-x-hidden">
           <Greetings />
           <Intro />
+          <div className="h-2 bg-white w-full"></div>
           <ThankYou />
-          <div className="py-6" >
+           <div className="h-2 bg-white w-full"></div>
+          <div className="py-6 grass" >
             <img src="/pokemon.gif" className="h-40 mx-auto " />
           </div>
+           <div className="h-3 bg-white w-full"></div>
           <Content />
         </div>
       </div>

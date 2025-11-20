@@ -10,9 +10,10 @@ import star from '/star2.gif';
 export const Greetings = () => {
 
     return (
-      <div className="min-h-screen coffee p-20 w-full text-coffee relative">
+      <div className="min-h-screen bg-stars  w-full text-coffee relative">
+       
         <img src={star} className="size-50 absolute -right-20 md:right-25" />
-        <h1 className=" mx-auto w-10/12 gap-2  justify-start flex">
+        <h1 className=" mx-auto p-10 w-10/12 gap-2 items-center  justify-start flex">
           <span className="flex gap-2 items-center">
             {" "}
             Ms. Riza <img src={chick} className="size-10" />,
@@ -26,7 +27,7 @@ export const Greetings = () => {
             and Sir Joeven <img src={bat} className="size-10" />
           </span>
         </h1>
-        <div className="flex flex-col md:flex-row gap-20 my-30  items-start">
+        <div className="flex p-20 flex-col md:flex-row gap-20 my-30  items-start">
           <img src={welcome} className="h-100" />
           <div className="space-y-15  max-w-5xl">
             <p>Hallo !!</p>
