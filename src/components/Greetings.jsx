@@ -40,10 +40,10 @@ export const Greetings = () => {
               but before that, i want you to know a little more about me.{" "}
               <span className="block">
                 i’m Paris, 17 years old, passionate about programming, writing,
-                and drawing. i’ve developed skills in building and creating
+                and drawing. i’ve developed skills that involves building and creating
                 things, because expressing my feelings in person can be hard. by
                 making tangible things to show my appreciation, i can share what
-                I feel and in a way, it helps me too
+                I feel and in a way, it helps me too  
               </span>
             </p>
           </div>
